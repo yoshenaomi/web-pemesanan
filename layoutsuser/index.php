@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
 
-    <title>Pesona Blambangan</title>
+    <title>Hotel Aston Banyuwangi</title>
 </head>
 
 <body>
@@ -24,15 +24,15 @@
       background-size: cover; 
       background-position: center;">
             <h1 style="margin-top: 50px; 
-      color: white; 
+      color: black; 
       text-align: center;
       font-weight: bolder;
-      background-color: black;">Aston Banyuwangi</h1>
+      ">Aston Banyuwangi</h1>
             <p style="margin: 20px; 
       color: white; 
       text-align: center;
       font-weight: bold;
-      background-color: black;">Hotel and Conference Center</p>
+    ">Hotel and Conference Center</p>
         </div>
     </div>
     <!-- End Header -->
@@ -212,19 +212,19 @@
       color: rgb(2, 2, 2); 
       text-align: center;
       font-weight: bolder;">Kontak Kami</h3>
-        <div class="col-md-3" style="justify-content: center; margin-left: 300px;">
+        <div class="col-md-3" style="justify-content: center; margin-left: 400px;">
             <section id="contact">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-12">
-                            <form>
+                            <form action="../controllerslayoutuser/proses_kontak_kami.php" method="post" autocomplete="off">
                                 <div class="mb-3" strict-origin-when-cross-origin>
-                                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <label for="namapemesan" class="form-label">Nama Pengunjung</label>
+                        <input type="text" class="form-control form-control-sm" id="namapemesan" name="namapemesan" placeholder="" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <label for="kritiksaran" class="form-label">Pertanyaan</label>
+                        <input type="text" class="form-control form-control-sm" id="kritiksaran" name="kritiksaran" placeholder="" required>
                                 </div>
 
                                 <div class="mb-3">

@@ -22,17 +22,17 @@
 
     <!-- Header -->
     <div class="container mt-3">
-        <div class="px-3 py-2" style="background-image: url('../assets/P.jpg'); 
+        <div class="px-3 py-2" style="background-image: url('../assets/aston1.jpg'); 
       background-size: cover; 
       background-position: center;">
             <h1 style="margin-top: 50px; 
-      color: white; 
+      color: black; 
       text-align: center;
-      font-weight: bolder;">Mari Menjelajahi Banyuwangi</h1>
+      font-weight: bolder;">Aston Banyuwangi</h1>
             <p style="margin: 20px; 
       color: white; 
       text-align: center;
-      font-weight: bold;">Bersama Pesona Blambangan</p>
+      font-weight: bold;">Hotel and Conference Center</p>
         </div>
     </div>
     <!-- End Header -->
@@ -208,38 +208,8 @@
             </div>
             <!-- End content card menampilkan video dari youtube -->
 
-            <!-- Contact Us -->
-            <h3 style="margin-top: 20px; 
-      color: rgb(2, 2, 2); 
-      text-align: center;
-      font-weight: bolder;">Kontak Kami</h3>
-            <div class="col-md-3" style="justify-content: center; margin-left: 300px;">
-                <section id="contact">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-md-12">
-                                <form>
-                                    <div class="mb-3" strict-origin-when-cross-origin>
-                                        <label for="exampleInputEmail1" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                    </div>
-
-                                </form>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-            </div>
-            <!-- End Contact Us -->
+            <br>
+            <br>
         </div>
         <!-- Perintah PHP untuk pemanggilan file footer-->
         <?php
